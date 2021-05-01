@@ -5,7 +5,7 @@ exports.run = (client, message) => {
     .setAuthor(`${client.user.username} `, client.user.avatarURL)
     .setColor("RED")
     .setThumbnail(
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F779826491710031718%2F&psig=AOvVaw2xBkp1fh3SIroxGJNexkUt&ust=1619991227238000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCjpt-3qfACFQAAAAAdAAAAABAD"
+      "https://im7.ezgif.com/tmp/ezgif-7-2484e616a2d9.gif"
     )
     .setDescription(
       `Toplamda Botta **${client.commands.size}** Adet Komut Bulunuyor!` +
@@ -33,7 +33,7 @@ exports.run = (client, message) => {
   
   .addField(
       `**:boom:➤ Bağlantılar  **`,
-      `>  » [Destek Sunucusu](https://discord.gg/74MZyfZ24d) \n >  » [Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=791609110658547782&permissions=8&scope=bot) \n > » [Oy Verebilirsiniz](https://top.gg/bot/791609110658547782/vote) `
+      `>  » [Destek Sunucusu](https://discord.gg/TbByFaEp) \n >  » [Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=837858580799422485&permissions=0&scope=bot) \n > » [Oy Verebilirsiniz](https://top.gg/bot/791609110658547782/vote) `
     )
     .setFooter(
       `
