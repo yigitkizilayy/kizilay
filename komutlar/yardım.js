@@ -5,7 +5,7 @@ exports.run = (client, message) => {
     .setAuthor(`${client.user.username} `, client.user.avatarURL)
     .setColor("RED")
     .setThumbnail(
-      "https://cdn.discordapp.com/attachments/790999702765961258/791775226186563635/6faf3b2ff385f75cc6b46e61e60c1979.gif"
+      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F779826491710031718%2F&psig=AOvVaw2xBkp1fh3SIroxGJNexkUt&ust=1619991227238000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCLCjpt-3qfACFQAAAAAdAAAAABAD"
     )
     .setDescription(
       `Toplamda Botta **${client.commands.size}** Adet Komut Bulunuyor!` +
