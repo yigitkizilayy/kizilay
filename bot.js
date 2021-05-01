@@ -155,7 +155,10 @@ client.on("messageUpdate", msg => {
  const i = db.fetch(`${msg.guild.id}.kufur`)
     if (i) {
         const kufur = ["oç", 
-                       "amk", 
+                       "amk",
+                       "sg",
+                       "akm",
+                       "göt",
                        "ananı sikiyim",
                        "piç",
                        "orospu çocuğu",
