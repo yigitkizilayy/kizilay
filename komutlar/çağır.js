@@ -1,7 +1,7 @@
 const Discord = require('discord.js');
 const db = require('quick.db')
 exports.run = (client, message, args) => { 
-       if(db.fetch(`bakim`)) return message.channel.send('**<a:tamir:708594410467885057> Size Daha İyi Hizmet Vermek İçin Bakımdayız \n :question: **Bakım Sebebi** `Komut Ekleniyo.`\n<a:yesbe:707495628112134145> En Yakın Zamanda Tekrar Kodlarımızı Sunacağız**')
+       if(db.fetch(`bakim`)) return message.channel.send('**<a:tamir:802904082414043186> Size Daha İyi Hizmet Vermek İçin Bakımdayız \n :question: **Bakım Sebebi** `Komut Ekleniyo.`\n<a:yesbe:802904082414043186> En Yakın Zamanda Tekrar Kodlarımızı Sunacağız**')
 
 
   let CodEming = args.slice(0).join(' '); 

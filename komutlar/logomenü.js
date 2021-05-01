@@ -6,8 +6,8 @@ exports.run = async (client, message, args) => {
 
 const eğlence = new Discord.MessageEmbed()
 .setColor("RANDOM")
-.setAuthor(" Mays v12 sürümüyle sizlerle")
-.setTitle(" ➤Mays logo menüsü komutları" )
+.setAuthor(" Kızılay v12 sürümüyle sizlerle")
+.setTitle(" ➤Kızılay logo menüsü komutları" )
  .setTimestamp()
 .setDescription(" **m!altın** \n **m!anime** \n **m!arrow** \n **m!banner**   \n **m!green** \n  **m!habbo** \n **m!kalın** \n  **m!neonmavi** \ ")
 .setImage("https://cdn.discordapp.com/attachments/790999702765961258/791798016583008297/wp2490739.png")
