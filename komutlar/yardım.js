@@ -15,9 +15,9 @@ exports.run = (client, message) => {
       `:boom:➤ Komutlar`,
       `
  
-:white_small_square: | **m!eğlence:** Eğlence Menüsüne Bakarsınız.
-:white_small_square: | **m!moderasyon:** Botun Moderasyon Komutlarına Bakarsınız
-:white_small_square: | **m!logomenü:** Botun Logo YAPMA Komutlarına Bakarsınız.
+:gear: | **m!eğlence:** Eğlence Menüsüne Bakarsınız.
+:gear: | **m!moderasyon:** Botun Moderasyon Komutlarına Bakarsınız
+:gear: | **m!logomenü:** Botun Logo YAPMA Komutlarına Bakarsınız.
 
 
 `)
@@ -27,8 +27,8 @@ exports.run = (client, message) => {
     .addField(
       ` :boom: Bilgilendirme`,
       `
-:white_small_square: | **Kızılay Bot Her Gün Güncelleniyor!**.
-:white_small_square: | **Botu Ekleyerek Bize Destek Çıkmış Olursunuz.** `
+:gear: | **Kızılay Bot Her Gün Güncelleniyor!**.
+:gear: | **Botu Ekleyerek Bize Destek Çıkmış Olursunuz.** `
     )
   
   .addField(
