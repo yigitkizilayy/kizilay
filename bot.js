@@ -34,7 +34,7 @@ client.on("message", message => {
 client.on("ready", () => {
   console.log(`Bütün komutlar başarıyla yüklendi!`);
   client.user.setStatus("dnd");
-  client.user.setActivity("Kızılay Beta k.yardım ");
+  client.user.setActivity("K.YARDIM KIZILAY BETA");
 });
 
 const log = message => {
@@ -182,7 +182,7 @@ client.on("message", async msg => {
     if (
       msg.content.toLowerCase() == "sa" ||
       msg.content.toLowerCase() == "s.a" ||
-      msg.content.toLowerCase() == "selamun aleyküm" ||
+      msg.content.toLowerCase() == "Selamun aleyküm" ||
       msg.content.toLowerCase() == "sea" ||
       msg.content.toLowerCase() == "selam"
     ) {
