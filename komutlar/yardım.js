@@ -15,7 +15,7 @@ exports.run = (client, message) => {
 
 ╔═════════════════════════════════════╗
 ║       ** MODERASYON KOMUTLARI **
-║    k.ban   Sunucudan bir üyeyi yasaklar.
+║   722463213127467089 k.ban   Sunucudan bir üyeyi yasaklar.
 ║    k.unban İstediğiniz kişinin banını kaldırır.
 ║    k.kick  Sunucudan bir üye kickler.
 ║    k.jail  Kişiyi jaile yollar.
