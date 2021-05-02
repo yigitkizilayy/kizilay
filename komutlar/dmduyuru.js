@@ -26,4 +26,4 @@ exports.help = {
   description: 'Tüm Herkese Mesaj Atar.',
   usage: 'dmduyuru [duyurmak istediğiniz şey]'
 };
-//Lord Creative
+//samet kızılay
