@@ -15,7 +15,7 @@ exports.run = (client, message) => {
 
 ╔═════════════════════════════════════╗
 ║   MODERASYON KOMUTLARI**
-║ <a:fiber_hype:817841600256278538>  k.ban   Sunucudan bir üyeyi yasaklar.
+║ <a:fiber_tikk:736610402376613959>  k.ban   Sunucudan bir üyeyi yasaklar.
 ║ <a:fiber_hype:817841600256278538>  k.unban İstediğiniz kişinin banını kaldırır.
 ║ <a:fiber_hype:817841600256278538>  k.kick  Sunucudan bir üye kickler.
 ║ <a:fiber_hype:817841600256278538>  k.jail  Kişiyi jaile yollar.
