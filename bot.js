@@ -28,7 +28,7 @@ client.on("message", message => {
   }
   if (cmd) {
     if (perms < cmd.conf.permLevel) return;
-    cmd.run(client, message, params, perms);
+     cmd.run(client, message, params, perms);
   }
 })
 
@@ -51,7 +51,7 @@ fs.readdir('./komutlar/', (err, files) => {
   log(`${files.length} adet komut yüklemeye hazırlanılıyor.`);
   files.forEach(f => {
     let props = require(`./komutlar/${f}`);
-    log(`Yüklenen komut ismi: ${props.help.name.toUpperCase()}.`);
+   log(`Yüklenen komut ismi: ${props.help.name.toUpperCase()}.`);
     client.commands.set(props.help.name, props);
     props.conf.aliases.forEach(alias => {
       client.aliases.set(alias, props.help.name);
