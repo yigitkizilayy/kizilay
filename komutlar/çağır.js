@@ -13,7 +13,7 @@ exports.run = (client, message, args) => {
   
   if(CodEming.length < 3) return message.reply('Çağırma nedeni `4` karakterden az olamaz.')
    message.reply('Sahibimi Çağırdım! Lütfen Bekleyiniz!')
-  message.channel.createInvite({maxAge: 0}).then((invite) => {
+   message.channel.createInvite({maxAge: 0}).then((invite) => {
     
    
     let yasinn_melek = new Discord.RichEmbed()
