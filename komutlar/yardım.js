@@ -14,19 +14,19 @@ exports.run = (client, message) => {
 
 
 ╔═════════════════════════════════════╗
-║ <a:fiber_hype:817841600256278538> MODERASYON KOMUTLARI**
-║ <a:fiber_hype:817841600256278538> k.ban   Sunucudan bir üyeyi yasaklar.
-║ <a:fiber_hype:817841600256278538> k.unban İstediğiniz kişinin banını kaldırır.
-║ :fiber_hype: k.kick  Sunucudan bir üye kickler.
-║ :fiber_hype: k.jail  Kişiyi jaile yollar.
+║ :fiber_yukariok:  MODERASYON KOMUTLARI**
+║ <a:fiber_hype:817841600256278538>  k.ban   Sunucudan bir üyeyi yasaklar.
+║ <a:fiber_hype:817841600256278538>  k.unban İstediğiniz kişinin banını kaldırır.
+║ <a:fiber_hype:817841600256278538>  k.kick  Sunucudan bir üye kickler.
+║ <a:fiber_hype:817841600256278538>  k.jail  Kişiyi jaile yollar.
 ║══════════════════════════════════════
-║ :white_check_mark: SOHBET KOMUTLARI
-║ :hammer_pick:  k.afk            AFK kalırsınız etiketlendiğinizde sebebi yazar.
-║ :hammer_pick:  k.sil          Belirli bir kanaldaki mesajları siler.
-║ :hammer_pick: *k.sohbet-kapat** Sohbeti Kapatır ve yazı yazılamaz.
-║ :hammer_pick: *k.sohbet-aç**    Sohbeti Açar ve yazı yazılabilir.
-║ :hammer_pick: *k.nuke**         Kanalı kapatır,mesajları siler ve tekrardan açar.
-║ :hammer_pick: *k.mute**         Kişiye chat/voice mute atılır.
+║ <a:fiber_hype:817841600256278538>   SOHBET KOMUTLARI
+║ <a:fiber_hype:817841600256278538>   k.afk            AFK kalırsınız etiketlendiğinizde sebebi yazar.
+║ <a:fiber_hype:817841600256278538>   k.sil          Belirli bir kanaldaki mesajları siler.
+║ <a:fiber_hype:817841600256278538>  *k.sohbet-kapat** Sohbeti Kapatır ve yazı yazılamaz.
+║ <a:fiber_hype:817841600256278538>  *k.sohbet-aç**    Sohbeti Açar ve yazı yazılabilir.
+║ <a:fiber_hype:817841600256278538>  *k.nuke**         Kanalı kapatır,mesajları siler ve tekrardan açar.
+║ <a:fiber_hype:817841600256278538>  *k.mute**         Kişiye chat/voice mute atılır.
 ║══════════════════════════════════════
 ║:white_check_mark:  SESLİ KOMUTLARI
 ║ :loud_sound: k.git         Kişi onay verirse odasına gidersiniz.
