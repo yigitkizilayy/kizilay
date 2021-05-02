@@ -14,7 +14,7 @@ exports.run = (client, message) => {
 
 
 ╔═════════════════════════════════════╗
-║       ** MODERASYON KOMUTLARI **
+║   <:onaytiki:838452309507571733>  ** MODERASYON KOMUTLARI **
 ║   <a:ok2:838449685697134592> k.ban   Sunucudan bir üyeyi yasaklar.
 ║   <a:ok2:838449685697134592> k.unban İstediğiniz kişinin banını kaldırır.
 ║   <a:ok2:838449685697134592> k.kick  Sunucudan bir üye kickler.
@@ -22,23 +22,23 @@ exports.run = (client, message) => {
 ║   <a:ok2:838449685697134592> k.yetkilerim  Yetkilerini gösterir.
 ║   <a:ok2:838449685697134592> k.çağır  Bot sahibini çağrır.
 ║══════════════════════════════════════
-║        ** SOHBET KOMUTLARI **
+║   <:onaytiki:838452309507571733>    ** SOHBET KOMUTLARI **
 ║   <a:ok2:838449685697134592>  k.afk            AFK kalırsınız etiketlendiğinizde sebebi yazar.
 ║   <a:ok2:838449685697134592>  k.sil            Belirli bir kanaldaki mesajları siler.
 ║   <a:ok2:838449685697134592> k.sohbet-kapat   Sohbeti Kapatır ve yazı yazılamaz.
-║    k.sohbet-aç      Sohbeti Açar ve yazı yazılabilir.
-║    k.nuke           Kanalı kapatır,mesajları siler ve tekrardan açar.
-║    k.mute           Kişiye chat/voice mute atılır.
+║   <a:ok2:838449685697134592> k.sohbet-aç      Sohbeti Açar ve yazı yazılabilir.
+║   <a:ok2:838449685697134592> k.nuke           Kanalı kapatır,mesajları siler ve tekrardan açar.
+║   <a:ok2:838449685697134592> k.mute           Kişiye chat/voice mute atılır.
 ║══════════════════════════════════════
-║              ** SESLİ KOMUTLARI **
-║   k.git          Kişi onay verirse odasına gidersiniz.
-║   k.çek          Kişi onay verirse odanıza gelir.
-║   k.mute         Kişiye chat/voice mute atılır.
+║ <:onaytiki:838452309507571733>      ** SESLİ KOMUTLARI **
+║ <a:ok2:838449685697134592>  k.git          Kişi onay verirse odasına gidersiniz.
+║ <a:ok2:838449685697134592>  k.çek          Kişi onay verirse odanıza gelir.
+║ <a:ok2:838449685697134592>  k.mute         Kişiye chat/voice mute atılır.
 ╚═════════════════════════════════════╝
 `
     )
     .addField(
-      `» Kızılay Beta V12 MODERASYON`,
+       `Kızılay Beta V12 MODERASYON`,
       `**[Destek Sunucusu](https://discord.gg/8S5Em5dUXY)**`
     )
     .setFooter(
