@@ -11,16 +11,14 @@ exports.run = async (client, msg, args) => {
   setInterval(() => {
     msg.guild.roles.find("name", discoR).setColor("RANDOM");
   }, 8000);
-  msg.channel.send(
-    `⚡ Disco Başladı! ⚡`
-  );
+  msg.channel.send(`⚡ Disco Başladı! ⚡`);
 };
 
 exports.conf = {
   enabled: true,
   guildOnly: true,
   aliases: ["disko"],
-  permLevel: 3
+  permLevel: 5
 };
 
 exports.help = {
