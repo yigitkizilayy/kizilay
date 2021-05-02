@@ -25,14 +25,14 @@ exports.run = (client, message) => {
 
 
     .addField(
-      ` :boom: Bilgilendirme`,
+      ` :white_check_mark: Bilgilendirme`,
       `
-:gear: | **Kızılay Bot Her Gün Güncelleniyor!**.
-:gear: | **Botu Ekleyerek Bize Destek Çıkmış Olursunuz.** `
+:repeat: | **Kızılay Bot Her Gün Güncelleniyor!**.
+:customs: | **Botu Ekleyerek Bize Destek Çıkmış Olursunuz.** `
     )
   
   .addField(
-      `**:boom:➤ Bağlantılar  **`,
+      `** :paperclips:➤ Bağlantılar  **`,
       `>  » [Destek Sunucusu](https://discord.gg/TbByFaEp) \n >  » [Botun Davet Linki](https://discord.com/api/oauth2/authorize?client_id=837858580799422485&permissions=0&scope=bot) \n > » [Oy Verebilirsiniz](https://top.gg/bot/791609110658547782/vote) `
     )
     .setFooter(
