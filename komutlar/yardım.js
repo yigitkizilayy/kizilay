@@ -14,21 +14,21 @@ exports.run = (client, message) => {
 
 
 ╔═════════════════════════════════════╗
-║*:gear:* MODERASYON KOMUTLARI**
-║*:gear:* k.ban**   Sunucudan bir üyeyi yasaklar.
-║*:gear:* k.unban** İstediğiniz kişinin banını kaldırır.
-║*:gear:* k.kick**  Sunucudan bir üye kickler.
-║*:gear:* k.jail**  Kişiyi jaile yollar.
+║ :white_check_mark: MODERASYON KOMUTLARI**
+║ :gear:* k.ban   Sunucudan bir üyeyi yasaklar.
+║ :gear: k.unban İstediğiniz kişinin banını kaldırır.
+║ :gear: k.kick  Sunucudan bir üye kickler.
+║ :gear: k.jail  Kişiyi jaile yollar.
 ║══════════════════════════════════════
-║*:hammer_pick: *SOHBET KOMUTLARI**
-║*:hammer_pick: *k.afk**          AFK kalırsınız etiketlendiğinizde sebebi yazar.
-║**k.sil**          Belirli bir kanaldaki mesajları siler.
-║**k.sohbet-kapat** Sohbeti Kapatır ve yazı yazılamaz.
-║**k.sohbet-aç**    Sohbeti Açar ve yazı yazılabilir.
-║**k.nuke**         Kanalı kapatır,mesajları siler ve tekrardan açar.
-║**k.mute**         Kişiye chat/voice mute atılır.
+║ :white_check_mark: SOHBET KOMUTLARI
+║ :hammer_pick:  k.afk            AFK kalırsınız etiketlendiğinizde sebebi yazar.
+║ :hammer_pick:  k.sil          Belirli bir kanaldaki mesajları siler.
+║ :hammer_pick: *k.sohbet-kapat** Sohbeti Kapatır ve yazı yazılamaz.
+║ :hammer_pick: *k.sohbet-aç**    Sohbeti Açar ve yazı yazılabilir.
+║ :hammer_pick: *k.nuke**         Kanalı kapatır,mesajları siler ve tekrardan açar.
+║ :hammer_pick: *k.mute**         Kişiye chat/voice mute atılır.
 ║══════════════════════════════════════
-║**SESLİ KOMUTLARI**
+║*:white_check_mark:* SESLİ KOMUTLARI**
 ║**k.git**          Kişi onay verirse odasına gidersiniz.
 ║**k.çek**          Kişi onay verirse odanıza gelir.
 ║**k.mute**         Kişiye chat/voice mute atılır.
