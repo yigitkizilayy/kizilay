@@ -14,7 +14,7 @@ exports.run = (client, message) => {
 
 
 ╔═════════════════════════════════════╗
-║ :fiber_yukariok:  MODERASYON KOMUTLARI**
+║   MODERASYON KOMUTLARI**
 ║ <a:fiber_hype:817841600256278538>  k.ban   Sunucudan bir üyeyi yasaklar.
 ║ <a:fiber_hype:817841600256278538>  k.unban İstediğiniz kişinin banını kaldırır.
 ║ <a:fiber_hype:817841600256278538>  k.kick  Sunucudan bir üye kickler.
@@ -22,16 +22,16 @@ exports.run = (client, message) => {
 ║══════════════════════════════════════
 ║ <a:fiber_hype:817841600256278538>   SOHBET KOMUTLARI
 ║ <a:fiber_hype:817841600256278538>   k.afk            AFK kalırsınız etiketlendiğinizde sebebi yazar.
-║ <a:fiber_hype:817841600256278538>   k.sil          Belirli bir kanaldaki mesajları siler.
+║ <a:fiber_hype:817841600256278538>   k.sil            Belirli bir kanaldaki mesajları siler.
 ║ <a:fiber_hype:817841600256278538>  *k.sohbet-kapat** Sohbeti Kapatır ve yazı yazılamaz.
 ║ <a:fiber_hype:817841600256278538>  *k.sohbet-aç**    Sohbeti Açar ve yazı yazılabilir.
 ║ <a:fiber_hype:817841600256278538>  *k.nuke**         Kanalı kapatır,mesajları siler ve tekrardan açar.
 ║ <a:fiber_hype:817841600256278538>  *k.mute**         Kişiye chat/voice mute atılır.
 ║══════════════════════════════════════
-║:white_check_mark:  SESLİ KOMUTLARI
-║ :loud_sound: k.git         Kişi onay verirse odasına gidersiniz.
-║ :loud_sound: k.çek         Kişi onay verirse odanıza gelir.
-║:loud_sound: k.mute         Kişiye chat/voice mute atılır.
+║:white_check_mark:           SESLİ KOMUTLARI
+║ :loud_sound: k.git          Kişi onay verirse odasına gidersiniz.
+║ :loud_sound: k.çek          Kişi onay verirse odanıza gelir.
+║:loud_sound:  k.mute         Kişiye chat/voice mute atılır.
 ╚═════════════════════════════════════╝
 `
     )
