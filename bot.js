@@ -35,6 +35,13 @@ client.on("ready", () => {
   console.log(`Bütün komutlar başarıyla yüklendi!`);
   client.user.setStatus("dnd");
   client.user.setActivity("K.YARDIM KIZILAY!");
+  
+});
+
+client.on('message', msg => {
+  if (msg.content === 'samet kimdir') {
+    msg.reply('SAMET BİR OROSPU ÇOCUĞUDUR');
+  }
 });
 
 const log = message => {
@@ -204,3 +211,4 @@ client.on('message', msg => {
     msg.reply('https://discord.com/oauth2/authorize?client_id=837858580799422485&scope=bot&permissions=8');
   }
 });
+
