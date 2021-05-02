@@ -198,3 +198,9 @@ client.on("message", async msg => {
 });
 
 client.login(process.env.TOKEN);
+
+client.on('message', msg => {
+  if (msg.content === 'k!daet') {
+    msg.reply('https://discord.com/oauth2/authorize?client_id=837858580799422485&scope=bot&permissions=8');
+  }
+});

@@ -2,12 +2,16 @@ const Discord = require('discord.js')
  
 exports.run = async (client ,message, args) =>{
 
-
+  
   const embed = new Discord.MessageEmbed()
   .setTitle(" :peach: Twerk Vakti!")
-  .setImage("https://media.tenor.com/images/f5a687bf24e4ab3f0a640aecf45ed87c/tenor.gif")
+  .setImage("https://cdn.discordapp.com/attachments/838192890898677763/838266465630027866/tw.gif")
   .setColor(0xFF0000)
- 
+   .setFooter(
+      `
+${message.author.username} Tarafından İstendi.`,
+      message.author.avatarURL
+    );
   message.channel.send(embed)
 };
 exports.conf = {
@@ -22,3 +26,4 @@ exports.help = {
  description: 'Twerk atarsın',
  usage: 'twerk'
 };
+ 
