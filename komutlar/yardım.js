@@ -15,17 +15,17 @@ exports.run = (client, message) => {
 
 ╔═════════════════════════════════════╗
 ║       ** MODERASYON KOMUTLARI **
-║   722463213127467089 k.ban   Sunucudan bir üyeyi yasaklar.
-║    k.unban İstediğiniz kişinin banını kaldırır.
-║    k.kick  Sunucudan bir üye kickler.
-║    k.jail  Kişiyi jaile yollar.
-║    k.yetkilerim  Yetkilerini gösterir.
-║    k.çağır  Bot sahibini çağrır.
+║   <a:ok2:838449685697134592> k.ban   Sunucudan bir üyeyi yasaklar.
+║   <a:ok2:838449685697134592> k.unban İstediğiniz kişinin banını kaldırır.
+║   <a:ok2:838449685697134592> k.kick  Sunucudan bir üye kickler.
+║   <a:ok2:838449685697134592> k.jail  Kişiyi jaile yollar.
+║   <a:ok2:838449685697134592> k.yetkilerim  Yetkilerini gösterir.
+║   <a:ok2:838449685697134592> k.çağır  Bot sahibini çağrır.
 ║══════════════════════════════════════
 ║        ** SOHBET KOMUTLARI **
-║    k.afk            AFK kalırsınız etiketlendiğinizde sebebi yazar.
-║    k.sil            Belirli bir kanaldaki mesajları siler.
-║    k.sohbet-kapat   Sohbeti Kapatır ve yazı yazılamaz.
+║   <a:ok2:838449685697134592>  k.afk            AFK kalırsınız etiketlendiğinizde sebebi yazar.
+║   <a:ok2:838449685697134592>  k.sil            Belirli bir kanaldaki mesajları siler.
+║   <a:ok2:838449685697134592> k.sohbet-kapat   Sohbeti Kapatır ve yazı yazılamaz.
 ║    k.sohbet-aç      Sohbeti Açar ve yazı yazılabilir.
 ║    k.nuke           Kanalı kapatır,mesajları siler ve tekrardan açar.
 ║    k.mute           Kişiye chat/voice mute atılır.
