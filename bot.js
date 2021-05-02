@@ -34,7 +34,7 @@ client.on("message", message => {
 client.on("ready", () => {
   console.log(`Bütün komutlar başarıyla yüklendi!`);
   client.user.setStatus("dnd");
-  client.user.setActivity("Kızılay Beta");
+  client.user.setActivity("Kızılay Beta k.yardım ");
 });
 
 const log = message => {
