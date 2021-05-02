@@ -10,7 +10,7 @@ const eğlence = new Discord.MessageEmbed()
 .setTitle(" ➤Kızılay Moderasyon komutları" )
  .setTimestamp()
 .setDescription(" **k.ping** : Botun pingini gösterir \n  **k.forceban** \n  **k.ban** \n **k.unban** \n **k.id** \n **k.küfür** \n **k.is** \n **k.sa-as** \n **k.kick** \n **k.sunucubilgi** \n **k.sil** \n **k.profil** \n **k.token** \n **k.yetkilerim** \n **k.link** \n  **k.üyedurum**\n **k.afk** \n **k.davet** ")
-.setImage("https://im7.ezgif.com/tmp/ezgif-7-2484e616a2d9.gif")
+.setImage("https://cdn.discordapp.com/attachments/838192890898677763/838248685560660018/kmod.png")
 message.channel.send(eğlence)
 }
 
