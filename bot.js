@@ -133,7 +133,7 @@ client.on("message", async msg => {
         if (!msg.member.hasPermission("MANAGE_GUILD")) {
           msg.delete();
           return msg.channel
-            .send(`${msg.author.tag}, Reklam Yapmak Yasak!`)
+            .send(`${msg.author.tag}, Küfür Etmek Yasak!`)
             .then(msg => msg.delete(10000));
         }
       } catch (err) {
@@ -187,7 +187,7 @@ client.on("message", async msg => {
       msg.content.toLowerCase() == "selam"
     ) {
       try {
-        return msg.reply("Aleyküm Selam, Hoşgeldin");
+        return msg.reply("Aleyküm Selam, Kral Hoşgeldin :heart: ");
       } catch (err) {
         console.log(err);
       }
@@ -200,7 +200,7 @@ client.on("message", async msg => {
 client.login(process.env.TOKEN);
 
 client.on('message', msg => {
-  if (msg.content === 'k!daet') {
+  if (msg.content === 'k.daet') {
     msg.reply('https://discord.com/oauth2/authorize?client_id=837858580799422485&scope=bot&permissions=8');
   }
 });

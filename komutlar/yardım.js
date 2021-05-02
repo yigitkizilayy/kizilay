@@ -14,14 +14,14 @@ exports.run = (client, message) => {
 
 
 ╔═════════════════════════════════════╗
-║**MODERASYON KOMUTLARI**
-║**k.ban**   Sunucudan bir üyeyi yasaklar.
-║**k.unban** İstediğiniz kişinin banını kaldırır.
-║**k.kick**  Sunucudan bir üye kickler.
-║**k.jail**  Kişiyi jaile yollar.
+║*:gear:* MODERASYON KOMUTLARI**
+║*:gear:* k.ban**   Sunucudan bir üyeyi yasaklar.
+║*:gear:* k.unban** İstediğiniz kişinin banını kaldırır.
+║*:gear:* k.kick**  Sunucudan bir üye kickler.
+║*:gear:* k.jail**  Kişiyi jaile yollar.
 ║══════════════════════════════════════
-║**SOHBET KOMUTLARI**
-║**k.afk**          AFK kalırsınız etiketlendiğinizde sebebi yazar.
+║*:hammer_pick: *SOHBET KOMUTLARI**
+║*:hammer_pick: *k.afk**          AFK kalırsınız etiketlendiğinizde sebebi yazar.
 ║**k.sil**          Belirli bir kanaldaki mesajları siler.
 ║**k.sohbet-kapat** Sohbeti Kapatır ve yazı yazılamaz.
 ║**k.sohbet-aç**    Sohbeti Açar ve yazı yazılabilir.
