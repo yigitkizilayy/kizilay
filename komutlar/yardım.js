@@ -28,10 +28,10 @@ exports.run = (client, message) => {
 ║ :hammer_pick: *k.nuke**         Kanalı kapatır,mesajları siler ve tekrardan açar.
 ║ :hammer_pick: *k.mute**         Kişiye chat/voice mute atılır.
 ║══════════════════════════════════════
-║*:white_check_mark:* SESLİ KOMUTLARI**
-║**k.git**          Kişi onay verirse odasına gidersiniz.
-║**k.çek**          Kişi onay verirse odanıza gelir.
-║**k.mute**         Kişiye chat/voice mute atılır.
+║:white_check_mark:  SESLİ KOMUTLARI
+║ :loud_sound: k.git         Kişi onay verirse odasına gidersiniz.
+║ :loud_sound: k.çek         Kişi onay verirse odanıza gelir.
+║:loud_sound: k.mute         Kişiye chat/voice mute atılır.
 ╚═════════════════════════════════════╝
 `
     )
