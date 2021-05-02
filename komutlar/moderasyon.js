@@ -9,7 +9,7 @@ const eğlence = new Discord.MessageEmbed()
 .setAuthor(" Kızılay v12 sürümüyle sizlerle")
 .setTitle(" ➤Kızılay Moderasyon komutları" )
  .setTimestamp()
-.setDescription(" **m!ping** : Botun pingini gösterir \n  **m!forceban** \n  **m!ban** \n **m!unban** \n **m!id** \n **m!küfür** \n **m!is** \n **m!sa-as** \n **m!kick** \n **m!sunucubilgi** \n **m!sil** \n **m!profil** \n **m!token** \n **m!yetkilerim** \n **m!link** \n  **m!üyedurum**\n **m!afk** \n **m!davet** ")
+.setDescription(" **k.ping** : Botun pingini gösterir \n  **k.forceban** \n  **k.ban** \n **k.unban** \n **m!id** \n **m!küfür** \n **m!is** \n **m!sa-as** \n **m!kick** \n **m!sunucubilgi** \n **m!sil** \n **m!profil** \n **m!token** \n **m!yetkilerim** \n **m!link** \n  **m!üyedurum**\n **m!afk** \n **m!davet** ")
 .setImage("https://im7.ezgif.com/tmp/ezgif-7-2484e616a2d9.gif")
 message.channel.send(eğlence)
 }

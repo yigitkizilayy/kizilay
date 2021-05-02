@@ -9,15 +9,15 @@ exports.run = (client, message) => {
     )
     .setDescription(
       `Toplamda Botta **${client.commands.size}** Adet Komut Bulunuyor!` +
-        "\n\n `m!botbilgi`= **Yazarak Botun İstatistiklerine Ulaşa Bilirsiniz.** \n `m!davet`= **Yazarak Botun Davet Linkini Alırsınız. \n `m!oyver`= Botumuza Oy verebilirsin**"
+        "\n\n `k.botbilgi`= **Yazarak Botun İstatistiklerine Ulaşa Bilirsiniz.** \n `k.davet`= **Yazarak Botun Davet Linkini Alırsınız. \n `k.oyver`= Botumuza Oy verebilirsin**"
     )
     .addField(
       `:boom:➤ Komutlar`,
       `
  
-:gear: | **m!eğlence:** Eğlence Menüsüne Bakarsınız.
-:gear: | **m!moderasyon:** Botun Moderasyon Komutlarına Bakarsınız
-:gear: | **m!logomenü:** Botun Logo YAPMA Komutlarına Bakarsınız.
+:gear: | **k.eğlence:** Eğlence Menüsüne Bakarsınız.
+:gear: | **k.moderasyon:** Botun Moderasyon Komutlarına Bakarsınız
+:gear: | **k.logomenü:** Botun Logo YAPMA Komutlarına Bakarsınız.
 
 
 `)
