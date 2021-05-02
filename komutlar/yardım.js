@@ -19,7 +19,8 @@ exports.run = (client, message) => {
 ║    k.unban İstediğiniz kişinin banını kaldırır.
 ║    k.kick  Sunucudan bir üye kickler.
 ║    k.jail  Kişiyi jaile yollar.
-      k.çağır          Bot Sahibini çağırır.
+║    k.yetkilerim  Yetkilerini gösterir.
+║    k.çağır  Bot sahibini çağrır.
 ║══════════════════════════════════════
 ║        ** SOHBET KOMUTLARI **
 ║    k.afk            AFK kalırsınız etiketlendiğinizde sebebi yazar.
