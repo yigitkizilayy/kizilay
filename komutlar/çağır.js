@@ -36,7 +36,7 @@ exports.run = (client, message, args) => {
     
   
   
-  //CodEming / Yasin..
+  //CodEming / samet..
   })
 
 
