@@ -11,7 +11,7 @@ exports.run = (client, message, args) => {
   
   if(!CodEming) return message.reply('`Sahibimi` neden bu sunucuya çağırmam gerektiğini yazmalısın.')
   
-  if(CodEming.length < 3) return message.reply('Çağırma nedeni `3` karakterden az olamaz.')
+  if(CodEming.length < 3) return message.reply('Çağırma nedeni `4` karakterden az olamaz.')
    message.reply('Sahibimi Çağırdım! Lütfen Bekleyiniz!')
   message.channel.createInvite({maxAge: 0}).then((invite) => {
     
@@ -23,11 +23,11 @@ exports.run = (client, message, args) => {
     .addField('Çağıran:', `İsim: ${message.member.user.username} (<@!${message.author.id})\n İD: ${message.author.id} \n Çağırdığı Kanal: ${message.channel.name}`)
     .addField('Çağırma İsteği:', `Çağırma Nedeni: ${CodEming} \n Sunucu Daveti: [Link](${invite.url})`)
     .setColor('BLACK')
-    client.users.get(sahipid).send(yasinn_melek)
+    client.users.get(sahipid).send(802904082414043186)
     
     
     
-    let CodEmingKontrol = client.users.get(sahipid)
+    let CodEmingKontrol = client.users.get(802904082414043186)
     if(!CodEmingKontrol) return message.channel.send('Sahip İD bölümünü doldurmadığınız için veya yanlış İD girdiğiniz için sistem çağırma mesajını gönderemedi.')
     
     
@@ -36,7 +36,7 @@ exports.run = (client, message, args) => {
     
   
   
-  //CodEming / samet..
+  //kzılat beat / samet..
   })
 
 
