@@ -1,17 +1,15 @@
-const Discord = require("discord.js");
+const Discord = require ("discord.js");
 
 exports.run = (client, message) => {
-  const lembed = new Discord.MessageEmbed().then;
-  const mhelp = new Discord.MessageEmbed()
-    .setColor("BLACK")
-    .setAuthor(`${client.user.username} `, client.user.avatarURL)
-    .setTitle("<a:dorulama:838451913988112394> Kızılay Beta V12 MODERASYON")
-    .setThumbnail(
-      "https://cdn.discordapp.com/attachments/838192890898677763/838404558576287764/350kb.gif"
-    )
-    .setDescription(
-      `
+const lembed = new Discord.MessageEmbed()
 
+.then;   
+const mhelp = new Discord.MessageEmbed()
+.setColor("BLACK")
+.setAuthor(`${client.user.username} `, client.user.avatarURL)  
+.setTitle("Kızılay V12 MODERASYON")
+.setThumbnail("https://cdn.discordapp.com/attachments/838192890898677763/838471685149556777/standard.gif")
+    .setDescription(`
 
 ╔═════════════════════════════════════╗
 ║   <a:dorulama:838451913988112394>  ** MODERASYON KOMUTLARI **
@@ -35,28 +33,22 @@ exports.run = (client, message) => {
 ║ <a:ok2:838449685697134592>  k.çek          Kişi onay verirse odanıza gelir.
 ║ <a:ok2:838449685697134592>  k.mute         Kişiye chat/voice mute atılır.
 ╚═════════════════════════════════════╝
-`
-    )
-    .addField(
-      ` <a:online:838451914412392548> Kızılay Beta Her Gün Güncelleniyor.`,
-      `**[Destek Sunucusu](https://discord.gg/8S5Em5dUXY)**`
-    )
-    .setFooter(
-      `${message.author.username} Tarafından İstendi.`,
-      message.author.avatarURL
-    );
-  message.channel.send(mhelp).then;
-  const sembed = new Discord.MessageEmbed();
-};
-exports.conf = {
-  enabled: true,
-  guildOnly: false,
-  aliases: ["yardım"],
-  permLevel: 0
-};
+`) 
+       .addField(`» Kızılay Hergün Sizin İçin Gelişiyor.`, `**[Destek Sunucusu](https://discord.gg/EkjJJes5)**`)
+        .setFooter(`${message.author.username} Tarafından İstendi.`, message.author.avatarURL)
+message.channel.send(mhelp)
+.then; const sembed = new Discord.MessageEmbed()
 
-exports.help = {
-  name: "yardım",
-  description: "",
-  usage: ""
-};
+}; 
+exports.conf = {
+    enabled: true, 
+    guildOnly: false, 
+    aliases: ["yardım"], 
+    permLevel: 0 
+  };
+ 
+  exports.help = {
+    name: 'yardım', 
+    description: '',
+    usage: ''
+  };
