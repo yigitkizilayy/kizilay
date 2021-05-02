@@ -19,7 +19,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'nahçek',
+  name: 'nahçek ',
   description: 'İstediğiniz Kişiye Çekiç Atarsınız.',
   usage: 'nahçek'
 };
