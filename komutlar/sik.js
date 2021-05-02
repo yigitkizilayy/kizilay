@@ -97,7 +97,7 @@ exports.conf = {
 };
 
 exports.help = {
-  name: 'sik',
+  name: 'bombala',
   description: 'birini dürtersiniz.',
-  usage: 'sik'
+  usage: 'bombala'
 };
