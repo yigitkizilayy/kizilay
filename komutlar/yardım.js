@@ -14,23 +14,23 @@ const mhelp = new Discord.MessageEmbed()
 
 ╔═════════════════════════════════════╗
 ║**MODERASYON KOMUTLARI**
-║**!ban**   Sunucudan bir üyeyi yasaklar.
-║**!unban** İstediğiniz kişinin banını kaldırır.
-║**!kick**  Sunucudan bir üye kickler.
-║**!jail**  Kişiyi jaile yollar.
+║**k.ban**   Sunucudan bir üyeyi yasaklar.
+║**k.unban** İstediğiniz kişinin banını kaldırır.
+║**k.kick**  Sunucudan bir üye kickler.
+║**k.jail**  Kişiyi jaile yollar.
 ║══════════════════════════════════════
 ║**SOHBET KOMUTLARI**
-║**!afk**          AFK kalırsınız etiketlendiğinizde sebebi yazar.
-║**!sil**          Belirli bir kanaldaki mesajları siler.
-║**!sohbet-kapat** Sohbeti Kapatır ve yazı yazılamaz.
-║**!sohbet-aç**    Sohbeti Açar ve yazı yazılabilir.
-║**!nuke**         Kanalı kapatır,mesajları siler ve tekrardan açar.
-║**!mute**         Kişiye chat/voice mute atılır.
+║**k.afk**          AFK kalırsınız etiketlendiğinizde sebebi yazar.
+║**k.sil**          Belirli bir kanaldaki mesajları siler.
+║**k.sohbet-kapat** Sohbeti Kapatır ve yazı yazılamaz.
+║**k.sohbet-aç**    Sohbeti Açar ve yazı yazılabilir.
+║**k.nuke**         Kanalı kapatır,mesajları siler ve tekrardan açar.
+║**k.mute**         Kişiye chat/voice mute atılır.
 ║══════════════════════════════════════
 ║**SESLİ KOMUTLARI**
-║**!git**          Kişi onay verirse odasına gidersiniz.
-║**!çek**          Kişi onay verirse odanıza gelir.
-║**!mute**         Kişiye chat/voice mute atılır.
+║**k.git**          Kişi onay verirse odasına gidersiniz.
+║**k.çek**          Kişi onay verirse odanıza gelir.
+║**k.mute**         Kişiye chat/voice mute atılır.
 ╚═════════════════════════════════════╝
 `) 
        .addField(`» Kızılay V12 MODERASYON`, `**[Destek Sunucusu](https://discord.gg/8S5Em5dUXY)**`)
