@@ -4,10 +4,10 @@ exports.run = async (client ,message, args) =>{
 
   
   const embed = new Discord.MessageEmbed()
-  .setTitle(" SAMET BİR OROSPU ÇOCUĞUDUR!")
+  .setTitle("adamdır")
 .setImage("")
   .setColor(0xFF0000)
-  
+message.delete()
   message.channel.send(embed)
 };
 exports.conf = {
