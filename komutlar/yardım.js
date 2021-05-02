@@ -5,7 +5,7 @@ exports.run = (client, message) => {
   const mhelp = new Discord.MessageEmbed()
     .setColor("BLACK")
     .setAuthor(`${client.user.username} `, client.user.avatarURL)
-    .setTitle("Kızılay Beta V12 MODERASYON")
+    .setTitle("<a:dorulama:838451913988112394> Kızılay Beta V12 MODERASYON")
     .setThumbnail(
       "https://cdn.discordapp.com/attachments/838192890898677763/838404558576287764/350kb.gif"
     )
@@ -14,7 +14,7 @@ exports.run = (client, message) => {
 
 
 ╔═════════════════════════════════════╗
-║   <:onaytiki:838452309507571733>  ** MODERASYON KOMUTLARI **
+║   <a:dorulama:838451913988112394>  ** MODERASYON KOMUTLARI **
 ║   <a:ok2:838449685697134592> k.ban   Sunucudan bir üyeyi yasaklar.
 ║   <a:ok2:838449685697134592> k.unban İstediğiniz kişinin banını kaldırır.
 ║   <a:ok2:838449685697134592> k.kick  Sunucudan bir üye kickler.
@@ -22,7 +22,7 @@ exports.run = (client, message) => {
 ║   <a:ok2:838449685697134592> k.yetkilerim  Yetkilerini gösterir.
 ║   <a:ok2:838449685697134592> k.çağır  Bot sahibini çağrır.
 ║══════════════════════════════════════
-║   <:onaytiki:838452309507571733>    ** SOHBET KOMUTLARI **
+║   <a:dorulama:838451913988112394>    ** SOHBET KOMUTLARI **
 ║   <a:ok2:838449685697134592>  k.afk            AFK kalırsınız etiketlendiğinizde sebebi yazar.
 ║   <a:ok2:838449685697134592>  k.sil            Belirli bir kanaldaki mesajları siler.
 ║   <a:ok2:838449685697134592> k.sohbet-kapat   Sohbeti Kapatır ve yazı yazılamaz.
@@ -30,7 +30,7 @@ exports.run = (client, message) => {
 ║   <a:ok2:838449685697134592> k.nuke           Kanalı kapatır,mesajları siler ve tekrardan açar.
 ║   <a:ok2:838449685697134592> k.mute           Kişiye chat/voice mute atılır.
 ║══════════════════════════════════════
-║ <:onaytiki:838452309507571733>      ** SESLİ KOMUTLARI **
+║ <a:dorulama:838451913988112394>      ** SESLİ KOMUTLARI **
 ║ <a:ok2:838449685697134592>  k.git          Kişi onay verirse odasına gidersiniz.
 ║ <a:ok2:838449685697134592>  k.çek          Kişi onay verirse odanıza gelir.
 ║ <a:ok2:838449685697134592>  k.mute         Kişiye chat/voice mute atılır.
@@ -38,7 +38,7 @@ exports.run = (client, message) => {
 `
     )
     .addField(
-       `Kızılay Beta V12 MODERASYON`,
+      ` <a:online:838451914412392548> Kızılay Beta Her Gün Güncelleniyor.`,
       `**[Destek Sunucusu](https://discord.gg/8S5Em5dUXY)**`
     )
     .setFooter(
