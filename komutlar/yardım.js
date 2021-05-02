@@ -14,11 +14,11 @@ exports.run = (client, message) => {
 
 
 ╔═════════════════════════════════════╗
-║ :white_check_mark: MODERASYON KOMUTLARI**
-║ :gear:* k.ban   Sunucudan bir üyeyi yasaklar.
-║ :gear: k.unban İstediğiniz kişinin banını kaldırır.
-║ :gear: k.kick  Sunucudan bir üye kickler.
-║ :gear: k.jail  Kişiyi jaile yollar.
+║ :fiber_:hype: MODERASYON KOMUTLARI**
+║ :fiber_hype: k.ban   Sunucudan bir üyeyi yasaklar.
+║ :fiber_hype: k.unban İstediğiniz kişinin banını kaldırır.
+║ :fiber_hype: k.kick  Sunucudan bir üye kickler.
+║ :fiber_hype: k.jail  Kişiyi jaile yollar.
 ║══════════════════════════════════════
 ║ :white_check_mark: SOHBET KOMUTLARI
 ║ :hammer_pick:  k.afk            AFK kalırsınız etiketlendiğinizde sebebi yazar.
