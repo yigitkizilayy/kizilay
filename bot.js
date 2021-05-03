@@ -34,7 +34,7 @@ client.on("message", message => {
 client.on("ready", () => {
   console.log(`Bütün komutlar başarıyla yüklendi!`);
   client.user.setStatus("dnd");
-  client.user.setActivity("K.YARDIM KIZILAY!");
+  client.user.setActivity("k!yardım #BİZ ÖLMEYİZ LAN!");
   
 });
 
@@ -206,9 +206,4 @@ client.on("message", async msg => {
 
 client.login(process.env.TOKEN);
 
-client.on('message', msg => {
-  if (msg.content === 'k.daet') {
-    msg.reply('https://discord.com/oauth2/authorize?client_id=837858580799422485&scope=bot&permissions=8');
-  }
-});
 

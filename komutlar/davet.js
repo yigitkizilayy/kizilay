@@ -4,7 +4,7 @@ exports.run = async (client, message, args) => {
   const embed = new Discord.MessageEmbed()
     .setTitle("Senin İçin Hazırladım Buyur Davet Linkim!")
     .setImage(
-      "https://cdn.discordapp.com/attachments/838192890898677763/838471697559453807/350kb_1.gif"
+      "https://cdn.discordapp.com/attachments/838192890898677763/838404558576287764/350kb.gif"
     )
     .setColor(0xff0000)
     .setDescription(

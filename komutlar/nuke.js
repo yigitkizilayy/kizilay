@@ -16,7 +16,7 @@ exports.conf = {
 };
 
 exports.help = {
-    name: 'nuke',
+    name: 'sıfırla',
   description: 'yeni kanal olusturur',
-  usage: 'nuke'
+  usage: 'sıfırla'
 };

@@ -9,7 +9,7 @@ const kullanıcı = new Discord.MessageEmbed()
 .setAuthor("Kızılay Beta bot ")
 .setTitle(" ➤Kızılay Beta Kullanıcı Komutları ")
  .setTimestamp()
-.setDescription(" **k.avatar** = Avatarınıza bakarsınız.  \n  **k.yetkilerim** = Yetkilerini görürsün. \n  **k.profil** = Profilini görürsün.  \n **k.sunucuresmi** = Sunucu resmini gösterir.  \n  **k.ping** = Botun Pingine Bakarsın. \n **k.id** = Birisinin id'sine Bakarsın. \n  **k.davet** = Beni Sunucuna Ekle.  \n  **k.botbilgi** = Bot istatistiklerini görürsünüz.  ")
+.setDescription(" **k!avatar** = Avatarınıza bakarsınız.  \n  **k!yetkilerim** = Yetkilerini görürsün. \n  **k!profil** = Profilini görürsün.  \n **k!sunucuresmi** = Sunucu resmini gösterir.  \n  **k!ping** = Botun Pingine Bakarsın. \n **k!id** = Birisinin id'sine Bakarsın. \n  **k!davet** = Beni Sunucuna Ekle.  \n  **k!botbilgi** = Bot istatistiklerini görürsünüz.  ")
 .setImage("https://cdn.discordapp.com/attachments/838192890898677763/838248695908663316/kzlay_kullanc_menu.png")
 message.channel.send(kullanıcı)
 }
