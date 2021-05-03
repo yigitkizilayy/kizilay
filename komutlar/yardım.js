@@ -33,7 +33,7 @@ const mhelp = new Discord.MessageEmbed()
 ╚═════════════════════════════
 `) 
        .addField(`» Kızılay Her gün Gellişiyor.`, `**[Destek Sunucusu](https://discord.gg/EkjJJes5)**`)
-.setImage("https://cdn.discordapp.com/attachments/838192890898677763/838471697559453807/350kb_1.gif")
+.setImage("https://cdn.discordapp.com/attachments/838192890898677763/838404558576287764/350kb.gif")
         .setFooter(`${message.author.username} Tarafından İstendi.`, message.author.avatarURL)
 message.channel.send(mhelp)
 .then; const sembed = new Discord.MessageEmbed()
