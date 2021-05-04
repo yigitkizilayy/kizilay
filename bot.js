@@ -35,12 +35,11 @@ client.on("ready", () => {
   console.log(`Bütün komutlar başarıyla yüklendi!`);
   client.user.setStatus("dnd");
   client.user.setActivity("k!yardım #BİZ ÖLMEYİZ LAN!");
-  
 });
 
-client.on('message', msg => {
-  if (msg.content === 'samet kimdir') {
-    msg.reply('SAMET BİR OROSPU ÇOCUĞUDUR');
+client.on("message", msg => {
+  if (msg.content === "samet kimdir") {
+    msg.reply("SAMET BİR OROSPU ÇOCUĞUDUR");
   }
 });
 
@@ -205,5 +204,3 @@ client.on("message", async msg => {
 });
 
 client.login(process.env.TOKEN);
-
-
