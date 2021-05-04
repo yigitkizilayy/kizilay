@@ -2,7 +2,8 @@ const Discord = require("discord.js");
 
 exports.run = async (client, message, args) => {
   const embed = new Discord.MessageEmbed()
-    .setTitle("Senin İçin Hazırladım Buyur Davet Linkim!")
+    .setTitle("Davet Linkim Bu.")
+  .setAuthor(message.author.avatarURL)
     .setImage(
       "https://cdn.discordapp.com/attachments/838192890898677763/838404558576287764/350kb.gif"
     )
@@ -10,7 +11,7 @@ exports.run = async (client, message, args) => {
     .setDescription(
       `https://discord.com/api/oauth2/authorize?client_id=837858580799422485&permissions=0&scope=bot`
     )
-    .setFooter("2021 Kızılay Beta Eğlence ve Moderasyon Botu ®");
+    .setFooter("2021 Kızılay Müzik Botu ®");
   message.channel.send(embed);
 };
 exports.conf = {
@@ -22,6 +23,6 @@ exports.conf = {
 
 exports.help = {
   name: "davet",
-  description: "Botun Pingine Bakarsın",
+  description: "Botu davet edersin",
   usage: "davet"
 };
