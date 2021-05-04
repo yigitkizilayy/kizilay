@@ -41,7 +41,7 @@ exports.run = async (client, message, args) => {
     )
     .addField("**__Discord.JS__**", `${Discord.version}`, true)
     .addField("**__Konum__**", `Turkey :flag_tr:`, true)
-    .addField("**__Bot Sahibi__**", `† SaMeT KıZıLaY †#6675`, true)
+    .addField("**__Bot Sahibi__**", `†  𝐆ö𝐥𝐠𝐞 𝐕𝐞𝐯𝐨 †#6675`, true)
     .addField("**__Geliştirici__**", ` Lexio Mikaelson#1026`, true)
     .addField("**__İşletim Sistemi__**", ` \`Windows 10 | 64 Bit\` `, true)
     .addField("**__CPU__**", ` \`\`\`Intel Xeon W-3275M\`\`\` `);
