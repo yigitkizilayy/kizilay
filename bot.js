@@ -33,14 +33,8 @@ client.on("message", message => {
 
 client.on("ready", () => {
   console.log(`Bütün komutlar başarıyla yüklendi!`);
-  client.user.setStatus("dnd");
-  client.user.setActivity("k!yardım #BİZ ÖLMEYİZ LAN!");
-});
-
-client.on("message", msg => {
-  if (msg.content === "samet kimdir") {
-    msg.reply("SAMET BİR OROSPU ÇOCUĞUDUR");
-  }
+  client.user.setStatus("idle");
+  client.user.setActivity("k!yardım #ÖLMEYİZ LAN BİZ");
 });
 
 const log = message => {
@@ -51,10 +45,9 @@ client.commands = new Discord.Collection();
 client.aliases = new Discord.Collection();
 fs.readdir("./komutlar/", (err, files) => {
   if (err) console.error(err);
-  log(`${files.length} adet komut yüklemeye hazırlanılıyor.`);
   files.forEach(f => {
     let props = require(`./komutlar/${f}`);
-    log(`Yüklenen komut ismi: ${props.help.name.toUpperCase()}.`);
+    log(`Yüklenen komut ismi: ${props.help.name.toUpperCase()}.`);  
     client.commands.set(props.help.name, props);
     props.conf.aliases.forEach(alias => {
       client.aliases.set(alias, props.help.name);
@@ -139,7 +132,7 @@ client.on("message", async msg => {
         if (!msg.member.hasPermission("MANAGE_GUILD")) {
           msg.delete();
           return msg.channel
-            .send(`${msg.author.tag}, Küfür Etmek Yasak!`)
+            .send(`${msg.author.tag}, Reklam Yapmak Yasak!`)
             .then(msg => msg.delete(10000));
         }
       } catch (err) {
@@ -156,9 +149,6 @@ client.on("messageUpdate", msg => {
     const kufur = [
       "oç",
       "amk",
-      "sg",
-      "akm",
-      "göt",
       "ananı sikiyim",
       "piç",
       "orospu çocuğu",
@@ -188,12 +178,12 @@ client.on("message", async msg => {
     if (
       msg.content.toLowerCase() == "sa" ||
       msg.content.toLowerCase() == "s.a" ||
-      msg.content.toLowerCase() == "Selamun aleyküm" ||
+      msg.content.toLowerCase() == "selamun aleyküm" ||
       msg.content.toLowerCase() == "sea" ||
       msg.content.toLowerCase() == "selam"
     ) {
       try {
-        return msg.reply("Aleyküm Selam, Kral Hoşgeldin :heart: ");
+        return msg.reply("Aleyküm Selam, Hoşgeldin");
       } catch (err) {
         console.log(err);
       }
@@ -203,4 +193,12 @@ client.on("message", async msg => {
   if (!i) return;
 });
 
-client.login(process.env.TOKEN);
+client.on('message', msg => {
+  if (msg.content === 'k!daet') {
+    msg.reply('https://discord.com/oauth2/authorize?client_id=838150427849392229&scope=bot&permissions=8');
+  }
+});
+  
+client.login(process.env.TOKEN)
+
+
