@@ -3,7 +3,7 @@ const Discord = require("discord.js");
 exports.run = async (client, message, args) => {
   const embed = new Discord.MessageEmbed()
     .setTitle("Davet Linkim Bu.")
-  .setAuthor(message.author.avatarURL)
+  
     .setImage(
       "https://cdn.discordapp.com/attachments/838192890898677763/838404558576287764/350kb.gif"
     )
