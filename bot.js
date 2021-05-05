@@ -194,8 +194,8 @@ client.on("message", async msg => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'k!daet') {
-    msg.reply('https://discord.com/oauth2/authorize?client_id=838150427849392229&scope=bot&permissions=8');
+  if (msg.content === 'bot selam ver bakim') {
+    msg.reply('SELAMUN ALEYKÜM OROSPU ÇOCUĞU');
   }
 });
   
