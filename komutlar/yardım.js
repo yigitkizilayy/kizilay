@@ -12,6 +12,7 @@ const mhelp = new Discord.MessageEmbed()
     .setDescription(`
 ╔═════════════════════════════
 ║   <a:dorulama:838451913988112394>     ** MODERASYON KOMUTLARI **
+║   <a:hypeshiny:838451913724264500>  k!moderasyon  Detaylı moderasyon komutlarını gösterir.
 ║   <a:hypeshiny:838451913724264500>  k!ban    Sunucudan bir üyeyi yasaklar.
 ║   <a:hypeshiny:838451913724264500>  k!unban  İstediğiniz kişinin banını kaldırır.
 ║   <a:hypeshiny:838451913724264500>  k!kick   Sunucudan bir üye kickler.
