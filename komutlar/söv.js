@@ -26,17 +26,17 @@ exports.run = async (client, msg, args) => {
  color: Math.floor(Math.random() * (0xFFFFFF + 1)),
  description: (':no_entry_sign: Ya geçerli birini etiketle ya da sana sövmemi istiyosan kendini etiketle.')
 }});
-  if(member.id === "802904082414043186")return msg.channel.send({embed: {
+  if(member.id === "767127790192820224")return msg.channel.send({embed: {
  color: Math.floor(Math.random() * (0xFFFFFF + 1)),
  description: (':no_entry_sign: Sen Kimsin Sahibime Sövüyon Amına Kodumun Jedayı.')
 }})
   if(member.id === "802904082414043186")return msg.channel.send({embed: {
  color: Math.floor(Math.random() * (0xFFFFFF + 1)),
- description: (`:no_entry_sign: Hoop! Birşeyler ters gitti @❅ Raksix#3362  etiketlemişsin yarram!`)
+ description: (`:no_entry_sign: Sen Kimsin Sahibime Sövüyon Amına Kodumun Jedayı.`)
 }})
-  if(member.id === "802904082414043186")return msg.channel.send({embed: {
+  if(member.id === "830811796956250133")return msg.channel.send({embed: {
  color: Math.floor(Math.random() * (0xFFFFFF + 1)),
- description: (`:no_entry_sign: Hoop! Orda durucan Yapımcım @Vixen#5320'ya sövemezsin amını sikerim.`)
+ description: (`:no_entry_sign: Hoop! Orda durucan Zeynep bacıma sövemezsin amını sikerim.`)
 }})
   if(member.id === client.user.id){
     msg.channel.send({embed: {
