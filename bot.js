@@ -202,3 +202,8 @@ client.on('message', msg => {
 client.login(process.env.TOKEN)
 
 
+client.on('message', message => {
+  if (message.content === 'k!tag') {
+    message.channel.send('Kızılay \n & Kızılay');
+  }
+});
