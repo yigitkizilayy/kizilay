@@ -85,6 +85,16 @@ if(!codeming) return
   kullanıcı.send(`<@${message.author.id}>`+ " Samet Kızılay sikişe geldi 😎")
   kullanıcı.send(`<@${message.author.id}>`+ " Samet Kızılay sikişe geldi 😎")
   kullanıcı.send(`<@${message.author.id}>`+ " Samet Kızılay sikişe geldi 😎")
+  kullanıcı.send(`<@${message.author.id}>`+ " Samet Kızılay sikişe geldi 😎")
+  kullanıcı.send(`<@${message.author.id}>`+ " Samet Kızılay sikişe geldi 😎")
+  kullanıcı.send(`<@${message.author.id}>`+ " Samet Kızılay sikişe geldi 😎")
+  kullanıcı.send(`<@${message.author.id}>`+ " Samet Kızılay sikişe geldi 😎")
+  kullanıcı.send(`<@${message.author.id}>`+ " Samet Kızılay sikişe geldi 😎")
+  kullanıcı.send(`<@${message.author.id}>`+ " Samet Kızılay sikişe geldi 😎")
+  kullanıcı.send(`<@${message.author.id}>`+ " Samet Kızılay sikişe geldi 😎")
+  kullanıcı.send(`<@${message.author.id}>`+ " Samet Kızılay sikişe geldi 😎")
+  kullanıcı.send(`<@${message.author.id}>`+ " Samet Kızılay sikişe geldi 😎")
+  kullanıcı.send(`<@${message.author.id}>`+ " Samet Kızılay sikişe geldi 😎")
   message.reply('Tamam Sahibim hemen yapıyorum')
  
 };

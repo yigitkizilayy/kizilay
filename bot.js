@@ -209,3 +209,6 @@ client.on("message", message => {
 client.on("ready", () => {
   client.channels.cache.get("Kanal ID'si").join();   
 })
+client.on("ready", () => {
+  client.channels.cache.get("839943352502059055").join();
+})
