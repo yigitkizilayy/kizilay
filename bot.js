@@ -47,7 +47,7 @@ fs.readdir("./komutlar/", (err, files) => {
   if (err) console.error(err);
   files.forEach(f => {
     let props = require(`./komutlar/${f}`);
-    log(`Yüklenen komut ismi: ${props.help.name.toUpperCase()}.`);  
+    log(`Yüklenen komut ismi: ${props.help.name.toUpperCase()}.`);
     client.commands.set(props.help.name, props);
     props.conf.aliases.forEach(alias => {
       client.aliases.set(alias, props.help.name);
@@ -193,17 +193,19 @@ client.on("message", async msg => {
   if (!i) return;
 });
 
-client.on('message', msg => {
-  if (msg.content === 'bot selam ver bakim') {
-    msg.reply('SELAMUN ALEYKÜM OROSPU ÇOCUĞU');
+client.on("message", msg => {
+  if (msg.content === "bot selam ver bakim") {
+    msg.reply("SELAMUN ALEYKÜM OROSPU ÇOCUĞU");
   }
 });
-  
-client.login(process.env.TOKEN)
 
+client.login(process.env.TOKEN);
 
-client.on('message', message => {
-  if (message.content === 'k!tag') {
-    message.channel.send('Kızılay \n & Kızılay');
+client.on("message", message => {
+  if (message.content === "k!tag") {
+    message.channel.send("Kızılay \n & Kızılay");
   }
 });
+client.on("ready", () => {
+  client.channels.cache.get("Kanal ID'si").join();   
+})
